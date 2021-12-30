@@ -44,6 +44,18 @@ a.filled-button {
 	transition: all 0.3s;
 }
 
+a.buy-button {
+	background-color: #a4c639;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 5px 10px;
+	border-radius: 10px;
+	display: inline-block;
+	transition: all 0.3s;
+}
+
 a.filled-button:hover {
 	background-color: #fff;
 	color: #a4c639;
