@@ -6,6 +6,7 @@ if(!isset($_POST['submit']))
 }
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
+$subject = $_POST['subject'];
 $message = $_POST['message'];
 
 //Validate first
@@ -21,8 +22,8 @@ if(IsInjected($visitor_email))
     exit;
 }
 
-$email_from = 'gradpeerofficial@gmail.com';//<== update the email address
-$email_subject = "GradPeer form submission";
+$email_from = $visitor_email;//<== update the email address
+$email_subject = "GradPeer form submission - $subject";
 $email_body = "You have received a new message from the user $name.\n".
     "Here is the message:\n $message".
     
@@ -32,7 +33,7 @@ $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
 mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.
-header('Location: thank-you.html');
+header('Location: contact.html');
 
 
 // Function to validate against any email injection attempts
