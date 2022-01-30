@@ -1361,6 +1361,18 @@ footer .contact-form button.filled-button:hover {
 	padding: 8px;
   }
   
+  .columns_price_15 {
+	float: left;
+	width: 15%;
+	padding: 8px;
+  }
+
+  .columns_price_55 {
+	float: left;
+	width: 55%;
+	padding: 8px;
+  }
+
   .price {
 	list-style-type: none;
 	border: 1px solid #eee;
