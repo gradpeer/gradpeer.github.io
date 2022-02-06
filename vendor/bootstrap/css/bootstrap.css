@@ -2967,6 +2967,8 @@ input[type="button"].btn-block {
   position: relative;
 }
 
+.dropdown-toggle:hover::dropdown-item-text {display: block;}
+
 .dropdown-toggle::after {
   display: inline-block;
   width: 0;
