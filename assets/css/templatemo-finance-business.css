@@ -1364,13 +1364,13 @@ footer .contact-form button.filled-button:hover {
   .columns_price_15 {
 	float: left;
 	width: 15%;
-	padding: 8px;
+	padding: 2%;
   }
 
   .columns_price_55 {
 	float: left;
 	width: 55%;
-	padding: 8px;
+	padding: 2%;
   }
 
   .price {
@@ -1389,7 +1389,7 @@ footer .contact-form button.filled-button:hover {
   .price .header {
 	background-color: #666;
 	color: white;
-	font-size: 25px;
+	font-size: 125%;
   }
   
   .price li {
@@ -1400,7 +1400,7 @@ footer .contact-form button.filled-button:hover {
   
   .price .grey {
 	background-color: #eee;
-	font-size: 20px;
+	font-size: 100%;
   }
   
   .button {
