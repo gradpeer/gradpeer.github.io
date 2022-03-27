@@ -8998,6 +8998,10 @@ a.text-dark:hover, a.text-dark:focus {
   .container {
     min-width: 992px !important;
   }
+  .cellContainer {
+  width: 25%;
+  float: left;
+  }
   .navbar {
     display: none;
   }
