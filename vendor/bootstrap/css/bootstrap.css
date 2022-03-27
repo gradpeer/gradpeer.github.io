@@ -8999,7 +8999,7 @@ a.text-dark:hover, a.text-dark:focus {
     min-width: 992px !important;
   }
   .cellContainer {
-  width: 25%;
+  width: 50%;
   float: left;
   }
   .navbar {
